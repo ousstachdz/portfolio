@@ -7,6 +7,9 @@ import { TaskbarComponent } from './taskbar/taskbar.component';
 import { IconComponent } from './icon/icon.component';
 import { DesktopComponent } from './desktop/desktop.component';
 import { WindowComponent } from './window/window.component';
+import { MouseposiDirective } from './mouseposi.directive';
+
+
 
 @NgModule({
   declarations: [
@@ -14,11 +17,13 @@ import { WindowComponent } from './window/window.component';
     TaskbarComponent,
     IconComponent,
     DesktopComponent,
-    WindowComponent
+    WindowComponent,
+    MouseposiDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
